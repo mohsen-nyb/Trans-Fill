@@ -1,13 +1,12 @@
-# Reimplementation of RobustFill with transformers.
+# TransFill: Reimplementation of RobustFill with transformers.
 
 RobustFill Original Paper: https://arxiv.org/pdf/1703.07469.pdf
 
 
 
 
-# TransFill Model Architecture
+## TransFill Model Architecture
 
-## Overview
 The TransFill model is designed with several key components, each playing a crucial role in the processing and transformation of data. Below is a detailed overview of the architecture, as illustrated in Figure 2.
 
 ### Dual Transformer Encoders
