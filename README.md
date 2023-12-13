@@ -7,7 +7,7 @@ RobustFill Original Paper: https://arxiv.org/pdf/1703.07469.pdf
 
 ## TransFill Model Architecture
 
-The TransFill model is designed with several key components, each playing a crucial role in the processing and transformation of data. Below is a detailed overview of the architecture, as illustrated in Figure 2.
+The TransFill model is designed with several key components, each playing a crucial role in the processing and transformation of data. Below is a detailed overview of the architecture, as illustrated in Figure 1.
 
 ### Dual Transformer Encoders
 - **Function**: Process input and output sequences separately.
@@ -28,7 +28,7 @@ The TransFill model is designed with several key components, each playing a cruc
 The operational flow of TransFill begins with the dual encoding of input and output sequences, followed by their integration and cumulative encoding. The decoder then takes this integrated encoding, along with the current output sequence, to predict the next part of the program. This iterative process continues until the complete program is synthesized from the provided I/O examples, demonstrating the model’s capability to understand and translate example-based specifications into executable programs.
 
 
-## Figure 2
+## Figure 1
 ![TransFill_model](https://github.com/mohsen-nyb/Trans-Fill/assets/122830808/cf02dc3d-c15e-4e2c-a96c-2a4eb631d0a7)
 
 
