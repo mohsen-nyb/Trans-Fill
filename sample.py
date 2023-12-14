@@ -1,12 +1,12 @@
+#Sampling implementation from yeoedward on Github
+#https://github.com/yeoedward/Robust-Fill
+
 from collections import namedtuple
-import logging
 from string import ascii_letters, ascii_lowercase, ascii_uppercase, digits
 from typing import Callable, List, Optional, Tuple, Union
-
+import logging
 import torch
-
 import operators as op
-
 
 LOGGER = logging.getLogger(__name__)
 
